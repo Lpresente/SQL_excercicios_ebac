@@ -14,13 +14,13 @@ WITH SERDEPROPERTIES ('separatorChar' = ',', 'quoteChar' = '"', 'escapeChar' = '
 STORED AS TEXTFILE
 LOCATION 's3://bucket-lucaspresente-transacoes/'
 ```
-#### [**2.1. Query 1**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Mod3_tabelas/query_1.csv.csv)
+#### [**2.1. Query 1**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Modulo3_exercicio/query_1.csv.csv)
 ```sql
 SELECT *
 FROM transacoes
 ```
 
-#### [**2.2. Query 2**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Mod3_tabelas/query_2.csv.csv)
+#### [**2.2. Query 2**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Modulo3_exercicio/query_2.csv.csv)
 ```sql
 SELECT id_cliente,
 	valor,
@@ -28,7 +28,7 @@ SELECT id_cliente,
 FROM transacoes;
 ```
 
-#### [**2.3. Query 3**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Mod3_tabelas/query_3.csv.csv)
+#### [**2.3. Query 3**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Modulo3_exercicio/query_3.csv.csv)
 ```sql
 SELECT DISTINCT id_loja AS nome_loja
 FROM transacoes;
@@ -36,7 +36,7 @@ FROM transacoes;
 
 ### **3. Ordenando e limitando dados**
 
-#### [**3.1. Query 4**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Mod3_tabelas/query_4.csv.csv)
+#### [**3.1. Query 4**](https://github.com/Lpresente/SQL_excercicios_ebac/blob/main/Modulo3_exercicio/query_4.csv.csv)
 ```sql
 SELECT id_cliente,
 	valor
